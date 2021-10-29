@@ -14,6 +14,23 @@ int main()
     int option;
     double bal = 500;
     
+    double acc_number = 1234;
+    double pin_number = 567;
+
+    cout << "Enter Account Number: ";
+    double accNo;
+    cin >> accNo;
+    
+    if (accNo != acc_number)
+        cout << "Error!!!";
+    else 
+        cout << "Enter Pin: ";
+        double pinNo;
+        cin >> pinNo;
+        if (pinNo != pin_number)
+            cout << "Error!!!";
+        else {}
+
     do {
     showMenu();
     cout << "Choose: ";
