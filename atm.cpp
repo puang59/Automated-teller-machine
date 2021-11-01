@@ -1,6 +1,8 @@
 #include <iostream>
 using namespace std;
 
+//comment 3
+// comment 2
 // lazygit test
 
 void showMenu(){
