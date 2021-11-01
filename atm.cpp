@@ -1,9 +1,16 @@
 #include <iostream>
 using namespace std;
 
-//comment 3
-// comment 2
-// lazygit test
+void showMenu(){
+    cout << "Menu:" << endl;
+    cout << "1. Check Balance" << endl;
+    cout << "2. Deposit" << endl;
+    cout << "3. Withdraw" << endl;
+    cout << "4. Exit" << endl;
+}
+
+
+/*
 
 void showMenu(){
     cout << "Menu:" << endl;
@@ -12,6 +19,7 @@ void showMenu(){
     cout << "3. Withdraw" << endl;
     cout << "4. Exit" << endl;
 }
+*/ 
 
 int main()
 {
