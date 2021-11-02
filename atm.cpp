@@ -9,6 +9,8 @@ void showMenu(){
     cout << "4. Exit" << endl;
 }
 
+// lg push
+
 // second tree
 
 /*
